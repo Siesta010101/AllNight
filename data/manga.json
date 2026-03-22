@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "title": "You and I Are Polar Opposites",
+    "cover": "images/you/ch1/001.jpg",
+    "chapters": [
+      {
+        "name": "Chapter 1",
+        "pages": [
+          "images/you/ch1/001.jpg",
+          "images/you/ch1/002.jpg",
+          "images/you/ch1/003.jpg"
+        ]
+      }
+    ]
+  }
+]
