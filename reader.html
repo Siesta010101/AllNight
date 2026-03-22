@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Reader</title>
+
+<style>
+body {
+  margin: 0;
+  background: black;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+}
+
+img {
+  max-width: 100%;
+  max-height: 90vh;
+  transition: transform 0.3s;
+}
+</style>
+
+</head>
+
+<body>
+
+<h3 id="pageInfo"></h3>
+
+<img id="pageImg">
+
+<div>
+  <button onclick="prevPage()">Prev</button>
+  <button onclick="nextPage()">Next</button>
+  <button onclick="toggleMode()">Mode</button>
+</div>
+
+<script src="js/main.js"></script>
+
+<script>
+// 点击翻页
+document.addEventListener('click', e => {
+  if (scrollMode) return;
+  if (e.clientX > window.innerWidth / 2) nextPage();
+  else prevPage();
+});
+</script>
+
+</body>
+</html>
