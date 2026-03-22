@@ -1,15 +1,15 @@
 [
   {
     "id": 1,
-    "title": "You and I Are Polar Opposites",
-    "cover": "images/you/ch1/001.jpg",
+    "title": "久保同学不放过我",
+    "cover": "images/ch1/001.jpg",
     "chapters": [
       {
         "name": "Chapter 1",
         "pages": [
-          "images/you/ch1/001.jpg",
-          "images/you/ch1/002.jpg",
-          "images/you/ch1/003.jpg"
+          "images/ch1/001.jpg",
+          "images/ch1/002.jpg",
+          "images/ch1/003.jpg"
         ]
       }
     ]
